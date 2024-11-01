@@ -39,7 +39,7 @@ function TravelPlanCard({
           </button>
           <button
             className="favorite-btn"
-            style={{ backgroundColor: favoriteColor || "grey" }}
+            style={{ backgroundColor: favoriteColor }}
             onClick={() => handleClickFavorite(plan.id)}
           >
             ♡
